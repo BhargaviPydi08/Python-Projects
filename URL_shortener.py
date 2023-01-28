@@ -25,9 +25,9 @@ from tkinter import *
 
 
 s = pyshorteners.Shortener()
-long_url = "https://www.linkedin.com/in/lakshmi-bhargavi-pydi-5119321aa/"
+long_url = input()
 short_url = s.tinyurl.short(long_url)
-print(short_url)
+print("The short URL is : ",short_url)
 
 
 # In[ ]:
